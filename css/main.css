@@ -1,0 +1,31 @@
+body,html {
+  height: 100%;
+  margin: 0;
+}
+.morning {background-image: url(https://i.imgur.com/NPmuyqt.jpeg);}
+.afternoon {background-image: url(https://i.imgur.com/2m5xkfp.jpg);}
+.night{background-image: url(/images/night.jpeg);}
+
+.container {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  background-position: center;
+  font-size: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+ .clock {
+  position: relative;
+  top:50%;
+  color: white;
+}
+#an {
+  color: white;
+  position: relative;
+  
+  font-family: fantasy;
+}
